@@ -2,7 +2,7 @@
 printf "\033c"
 
 mcsmanager_install_path="/opt/mcsmanager"
-node_install_path="/opt/node-v14.17.6-linux-x64"
+node_install_path="/opt/node-v14.17.6-linux-arm64"
 
 Red_Error() {
   echo '================================================='
