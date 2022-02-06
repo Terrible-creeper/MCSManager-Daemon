@@ -18,14 +18,14 @@ Install_Node() {
   echo "[→] cd /opt || exit"
   cd /opt || exit
 
-  echo "[↓] wget https://npm.taobao.org/mirrors/node/v14.17.6/node-v14.17.6-linux-x64.tar.gz"
-  wget https://npm.taobao.org/mirrors/node/v14.17.6/node-v14.17.6-linux-x64.tar.gz
+  echo "[↓] wget https://npm.taobao.org/mirrors/node/v14.17.6/node-v14.17.6-linux-arm64.tar.gz"
+  wget https://npm.taobao.org/mirrors/node/v14.17.6/node-v14.17.6-linux-arm64.tar.gz
 
-  echo "[↑] tar -zxf node-v14.17.6-linux-x64.tar.gz"
-  tar -zxf node-v14.17.6-linux-x64.tar.gz
+  echo "[↑] tar -zxf node-v14.17.6-linux-arm64.tar.gz"
+  tar -zxf node-v14.17.6-linux-arm64.tar.gz
 
-  echo "[x] rm -rf node-v14.17.6-linux-x64.tar.gz"
-  rm -rf node-v14.17.6-linux-x64.tar.gz
+  echo "[x] rm -rf node-v14.17.6-linux-arm64.tar.gz"
+  rm -rf node-v14.17.6-linux-arm64.tar.gz
 
   echo "[x] Delete the original Node link"
   rm -f /usr/bin/npm
