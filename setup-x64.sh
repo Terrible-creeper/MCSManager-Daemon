@@ -18,8 +18,8 @@ Install_Node() {
   echo "[→] cd /opt || exit"
   cd /opt || exit
 
-  echo "[↓] wget https://npm.taobao.org/mirrors/node/v14.17.6/node-v14.17.6-linux-x64.tar.gz"
-  wget https://npm.taobao.org/mirrors/node/v14.17.6/node-v14.17.6-linux-x64.tar.gz
+  echo "[↓] wget https://nodejs.org/dist/v14.17.6/node-v14.17.6-linux-x64.tar.gz"
+  wget https://nodejs.org/dist/v14.17.6/node-v14.17.6-linux-x64.tar.gz
 
   echo "[↑] tar -zxf node-v14.17.6-linux-x64.tar.gz"
   tar -zxf node-v14.17.6-linux-x64.tar.gz
@@ -70,8 +70,8 @@ Install_MCSManager() {
   echo "[→] cd daemon"
   cd daemon || exit
 
-  echo "[+] npm install --registry=https://registry.npm.taobao.org"
-  npm install --registry=https://registry.npm.taobao.org
+  echo "[+] npm install"
+  npm install
 
   echo "=============== MCSManager ==============="
   echo " Daemon: ${mcsmanager_install_path}/daemon"
